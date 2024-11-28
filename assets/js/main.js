@@ -3,17 +3,6 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-const music = document.getElementById('background-music');
-const toggleButton = document.getElementById('toggle-sound');
-
-// Reproducción inicial cuando el usuario interactúa
-toggleButton.addEventListener('click', () => {
-    if (music.paused) {
-        music.play(); // Forzar la reproducción
-    }
-    music.muted = !music.muted; // Alternar sonido
-    toggleButton.textContent = music.muted ? '🔇 Activar sonido' : '🔊 Desactivar sonido';
-});
 
 (function($) {
 
