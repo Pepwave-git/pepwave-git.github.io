@@ -10,34 +10,17 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<style>
-			#toggle-sound {
-				position: fixed;
-				bottom: 20px;
-				right: 20px;
-				padding: 10px 20px;
-				font-size: 16px;
-				color: white;
-				background-color: #007BFF;
-				border: none;
-				border-radius: 5px;
-				cursor: pointer;
-			}
-			#toggle-sound:hover {
-				background-color: #0056b3;
-			}
-		</style>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
-		<header id="header">
-			<div class="inner">
-				<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-				<h1><strong>Soy Luis Eduardo Hurtado Medina</strong> un Desarrollador de Juegos en Unity
-					con una base sólida en C#, Java y Python, deseoso de contribuir a proyectos innovadores de desarrollo de juegos. </h1>
-			</div>
-		</header>
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<h1><strong>Soy Luis Eduardo Hurtado Medina</strong> un Desarrollador de Juegos en Unity
+						con una base sólida en C#, Java y Python, deseoso de contribuir a proyectos innovadores de desarrollo de juegos. </h1>
+				</div>
+			</header>
 
 		<!-- Main -->
 		<div id="main">
@@ -74,67 +57,10 @@
 					<article class="col-6 col-12-xsmall work-item">
 						<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
 						<h3><a href="https://www.youtube.com/watch?v=3RSqSda28TE&ab_channel=LEDCreativeStudio" target="_blank">NOW WE ARE FREE / HANS ZIMMER Animated Video</a></h3>
-						<p><strong>Director de Fotografia y Animador: </strong>Me encargue de diriguir el apartado fotografico y animar en la participacion que realizamos junto a LED Creative Studio para el concurso #EnterTheWorldOfHansZimmer.</p>
+						<p><strong>Director de Fotografia y Animador:</strong>Me encargue de diriguir el apartado fotografico y animar en a participacion que realizamos junto a LED Creative Studio para el concurso #EnterTheWorldOfHansZimmer.</p>
 					</article>
 				</div>
 			</section>
-
-			<!-- Three -->
-			<section id="three">
-				<h2>Ponte en Contacto</h2>
-				<div class="row">
-					<div class="col-8 col-12-small">
-						<form method="post" action="https://formspree.io/f/mrbgknev">
-							<div class="row gtr-uniform gtr-50">
-								<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nombre" required /></div>
-								<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required /></div>
-								<div class="col-12"><textarea name="message" id="message" placeholder="Mensaje" rows="4" required></textarea></div>
-							</div>
-							<ul class="actions">
-								<li><input type="submit" value="Enviar Mensaje" /></li>
-							</ul>
-					</div>
-					<div class="col-4 col-12-small">
-						<ul class="labeled-icons">
-							<li>
-								<h3 class="icon solid fa-mobile-alt"><span class="label">Celular</span></h3>
-								+57 3044278815
-							</li>
-							<li>
-								<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-								<a href="#">lehurtado001@hotmail.com</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
-		</div>
-
-		<!-- Botón para desactivar sonido -->
-		<button id="toggle-sound">🔊 Desactivar sonido</button>
-
-		<!-- Audio de fondo -->
-		<audio id="background-music" loop autoplay>
-			<source src="audio/fondo.mp3" type="audio/mpeg">
-			Tu navegador no soporta el elemento de audio.
-		</audio>
-
-		<script>
-			const music = document.getElementById('background-music');
-			const toggleButton = document.getElementById('toggle-sound');
-
-			toggleButton.addEventListener('click', () => {
-				if (music.muted) {
-					music.muted = false;
-					toggleButton.textContent = '🔊 Desactivar sonido';
-				} else {
-					music.muted = true;
-					toggleButton.textContent = '🔇 Activar sonido';
-				}
-			});
-		</script>
-	</body>
-</html>
 
 
 				<!-- Four -->

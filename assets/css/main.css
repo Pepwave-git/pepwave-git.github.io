@@ -6,7 +6,30 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/* Ocultar el reproductor de audio */
+audio {
+    display: none;
+}
 
+/* Botón de sonido */
+#toggle-sound {
+    position: fixed; /* Fijo para que no altere el flujo de la página */
+    bottom: 20px; /* Espaciado desde abajo */
+    right: 20px; /* Espaciado desde la derecha */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; /* Colócalo por encima de otros elementos */
+}
+
+/* Efecto hover en el botón */
+#toggle-sound:hover {
+    background-color: #0056b3;
+}
 @font-face {
     font-family:'Gamer'; /* Nombre que usarás en CSS */
     src: url('/assets/css/font/Gamer.ttf') format('tff'); /* Enlace al archivo */
