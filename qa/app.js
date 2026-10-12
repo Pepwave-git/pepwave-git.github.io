@@ -62,7 +62,7 @@ function setLanguage(newLang) {
   document.querySelectorAll("[data-en][data-es]").forEach(el=>{el.textContent=el.dataset[lang].replace(/\\n/g,"\n");});
   document.querySelectorAll("[data-placeholder-en]").forEach(el=>{el.placeholder=el.dataset[lang==="en"?"placeholderEn":"placeholderEs"];});
   $("#language").textContent=lang==="en"?"ES":"EN";
-  $("#language").setAttribute("aria-label",lang==="en"?"Cambiar a español":"Switch to English");
+  $("#language").setAttribute("aria-label",lang==="en"?"Switch to Spanish":"Cambiar a inglés");
   $("#form-status").textContent="";
   renderContact();renderDemo();renderDocument();
   exerciseFrame.title = lang === "es" ? "Find//Bug — ejercicio interactivo de QA" : "Find//Bug — interactive QA exercise";
