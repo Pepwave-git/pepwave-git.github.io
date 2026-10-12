@@ -1,0 +1,29 @@
+PORTAFOLIO QA - LUIS EDUARDO HURTADO MEDINA
+
+Versión para GitHub Pages, carpeta qa/ del repositorio Pepwave-git/pepwave-git.github.io.
+index.html es la entrada y el resto de los archivos deben permanecer junto a ella.
+Sitio estático: no necesita instalación, compilación ni servidor propio.
+
+Contenido: diseño retro, portafolio EN/ES, simulación independiente de QA y
+Find//Bug con 42 casos y 10 rondas. QA-002 y la ilustración decorativa eliminada
+no forman parte de esta versión. El ejercicio permite cambiar EN/ES y no abre
+enlaces externos. Las capturas públicas de terceros se cargan por HTTPS;
+su disponibilidad depende del servidor original. Los créditos están en el reto.
+
+Experiencia profesional: EPAM Systems desde abril de 2025; Epic Games es el
+cliente. Formación: Tecnólogo en Análisis y Desarrollo de Software, SENA,
+agosto de 2024 a agosto de 2026. El juego profesional y sus materiales internos
+son confidenciales. Las muestras del portafolio son ejercicios independientes.
+
+Editar contactos: config.js.
+Editar presentación: index.html (versiones data-en y data-es).
+Editar estilo: styles.css y retro.css. La fuente pixelada está integrada en CSS.
+Interacciones: app.js.
+Ejercicio: find-bug.html y su copia integrada find-bug.js; deben mantenerse coherentes.
+
+El formulario de contacto prepara un correo mediante la aplicación de correo
+del visitante. No hay envío automático ni base de datos de visitantes.
+
+Esta carpeta contiene exclusivamente el sitio público. Los registros de
+postulaciones, datos de cuenta, documentos de identidad y credenciales no
+forman parte del contenido publicado.
